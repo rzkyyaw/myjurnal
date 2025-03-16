@@ -1,0 +1,35 @@
+@media (max-width: 768px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    box-shadow: none;
+  }
+
+  #title {
+    margin-left: 3px;
+  }
+
+  .sidebar h2 {
+    display: none;
+  }
+
+  .sidebar a {
+    margin: 0;
+    padding: 10px 15px;
+  }
+
+  .main-content {
+    margin-left: 0;
+    padding: 20px;
+  }
+}

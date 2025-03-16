@@ -1,0 +1,98 @@
+/* RESET & DASAR */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #191414, #121212);
+  color: #fff;
+  position: relative; /* agar footer bisa diatur posisinya */
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 250px;
+  background: #191414;
+  color: #fff;
+  padding: 20px;
+  position: fixed;
+  height: 100%;
+  box-shadow: 4px 0 10px rgba(0, 0, 0, 0.5); /* Efek 3D */
+}
+
+.sidebar h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Bayangan teks */
+}
+
+.sidebar a {
+  display: block;
+  color: #b3b3b3;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  transition: background 0.3s, color 0.3s;
+  font-weight: bold;
+}
+
+.sidebar a:hover {
+  background: #5a4e35;
+  color: #fff;
+}
+
+/* MAIN CONTENT */
+.main-content {
+  margin-left: 270px;
+  padding: 40px;
+  flex: 1;
+}
+
+.main-content h1 {
+  margin-bottom: 20px;
+  color: #b89344;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.journal-entry {
+  background: #282828;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  margin-bottom: 20px;
+  transition: transform 0.3s;
+}
+
+/* Efek hover pada card */
+.journal-entry:hover {
+  transform: translateY(-3px);
+}
+
+.journal-entry h2 {
+  margin-bottom: 10px;
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.journal-entry p {
+  color: #b3b3b3;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #191414;
+  color: #b3b3b3;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.5); /* Efek 3D */
+}
