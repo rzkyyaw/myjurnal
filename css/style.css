@@ -67,6 +67,7 @@ body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
   margin-bottom: 20px;
   transition: transform 0.3s;
+  cursor: pointer;
 }
 
 /* Efek hover pada card */
